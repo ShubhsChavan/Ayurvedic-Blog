@@ -1,0 +1,66 @@
+.location-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.location-container h1 {
+    color: rgb(9, 72, 9);
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.locations {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.first-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.42) 0px 0px 35px 0px;
+    background-color: white;
+    border-radius: 30px;
+}
+.location-name{
+    color: rgb(9, 72, 9);
+    font-size: 30px;
+}
+.location-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-image img{
+    width: 90%;
+    border-radius: 30px;
+    padding: 15px;
+}
+.second-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.42) 0px 0px 35px 0px;
+    background-color: white;
+    border-radius: 30px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.location-address{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 0px 20px;
+}

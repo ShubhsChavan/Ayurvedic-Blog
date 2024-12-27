@@ -1,0 +1,62 @@
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 80px;
+    /* Hide images that move out of view */
+}
+
+.carousel {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    /* Smooth transition for sliding */
+}
+
+.carousel-image-container {
+    position: relative;
+    width: 33.33%;
+    /* Show 3 images at once */
+    padding: 5px;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.dots-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: rgba(77, 75, 75, 0.6);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: rgb(18, 17, 17);
+}
+
+.carousel-image-container:hover .dots-overlay {
+    opacity: 1;
+}
+
+.dots-overlay {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
