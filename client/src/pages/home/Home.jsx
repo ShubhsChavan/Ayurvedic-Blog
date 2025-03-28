@@ -24,7 +24,7 @@ export default function Home() {
     fetchPosts();
   }, [search]);
   return (
-    <>
+    <div className="home-container">
       <Header />
       <Diseases/>
       {/* <PatientVideos/> */}
@@ -34,6 +34,19 @@ export default function Home() {
       <div className="home">
         <Posts posts={posts} />
       </div>
-    </>
+      <div className="whatsapp-icon">
+      <a
+        href="https://wa.me/918412839460?text=Hello,%20I%20want%20to%20book%20appoinment!t"
+        target="_blank"
+        style={{ position: 'fixed', bottom: '30px', right: '20px', zIndex: 1000 }}
+      >
+        <img
+          src='\assets\Images\whatsapp.svg' 
+          alt="WhatsApp"
+          style={{ width: '60px', height: '60px' }}
+        />
+      </a>
+      </div>
+    </div>
   );
 }

@@ -50,11 +50,6 @@ export default function Header() {
           <span style={{ color: "orange", fontWeight: "600"}}>8412839460</span>
         </div>
       </div>
-      <img
-        className="header-img"
-        src="../../../assets/Images/ayurveda.png"
-        alt=""
-      />
     </div>
   );
 }
