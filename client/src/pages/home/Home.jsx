@@ -27,7 +27,7 @@ export default function Home() {
     <div className="home-container">
       <Header />
       <Diseases/>
-      {/* <PatientVideos/> */}
+      <PatientVideos/>
       <Location/>
       <ImageSlideShow/>
       <Footer/>

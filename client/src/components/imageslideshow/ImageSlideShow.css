@@ -23,7 +23,7 @@
 
 .carousel-image {
     width: 100%;
-    height: auto;
+    height: 500px;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -59,4 +59,24 @@
 .dots-overlay {
     opacity: 1;
     transition: opacity 0.3s;
+}
+
+@media screen and (max-width: 480px) {
+    .carousel-image {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .carousel-container {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        overflow: hidden;
+        margin-top: 60px;
+        /* Hide images that move out of view */
+    }
+    
 }

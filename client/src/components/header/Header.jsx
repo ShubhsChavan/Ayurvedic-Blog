@@ -45,10 +45,10 @@ export default function Header() {
             <button type="submit">Enquire Now</button>
           </form>
         </div>
-        <div className="phone-enquiry">
+        {/* <div className="phone-enquiry">
           <span>OR CALL </span>
           <span style={{ color: "orange", fontWeight: "600"}}>8412839460</span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

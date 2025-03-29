@@ -3,10 +3,10 @@ import './ImageSlideShow.css'
 import { useState, useEffect } from 'react';
 const ImageSlideShow = () => {
     const images = [
-        '../../../assets/Images/treatment2.png',
-        '../../../assets/Images/treatment3.png',
-        '../../../assets/Images/treatment4.png',
-        '../../../assets/Images/treatment5.png',
+        '../../../assets/Images/clinic_photo1.png',
+        '../../../assets/Images/clinic_photo2.png',
+        '../../../assets/Images/clinic_photo3.png',
+        '../../../assets/Images/clinic_photo4.png',
     ];
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const totalImages = images.length;
